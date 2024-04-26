@@ -45,3 +45,5 @@ now = datetime.datetime.now()
 current_time = now.strftime("%Y-%m-%d %H:%M:%S")
 with open(f"{current_time}.txt", "w") as file:
     file.write("\n".join(user_name_list))
+
+print(f"팔로워 목록이 {current_time}.txt 이름으로 저장되었습니다.")
