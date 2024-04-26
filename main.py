@@ -30,7 +30,7 @@ while True :
     # join list
     user_name = [user['username'] for user in data['users']]
     user_name_list.extend(user_name)
-    print(f"총 {len(user_name_list)} 명 찾았습니다.")
+    print(f"총 {len(user_name_list)}명 팔로워를 찾았습니다.")
 
     # continue or break
     try :
