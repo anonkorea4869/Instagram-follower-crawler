@@ -13,7 +13,7 @@ selenium 등으로 브라우저를 키지 않아도 팔로워 목록 확인할 �
 1. 인스타그램을 키고 로그인 합니다.
 2. 크롬에서 개발자 도구를 켜줍니다.(Window : f11, Mac : option + mac + i)
 3. 상단 부분에 애플리케이션(Application)을 클릭합니다.
-4. 좌측에서 쿠키를 찾아주고 ('https://www.instagram.com') 으로 시작하는 글자를 클릭합니다.
+4. 좌측에서 쿠키를 찾아주고 "https://www.instagram.com" 으로 시작하는 글자를 클릭합니다.
 5. **ds_user_id**와 **sessioniod**에서 값 영역을 클릭해서 따로 보관합니다.
 
 ### Windows OS 실행 방법
